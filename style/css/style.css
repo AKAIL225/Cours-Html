@@ -1,0 +1,32 @@
+nav ul{
+    display: flex; /*permet d'aligner les elements*/
+    list-style-type:none;/*enlever les points devant les listes N-O*/
+    justify-content:center;/*centrer tout le contenu d'une div*/
+    gap: 20px;/*Mettre le espaces entre les elements flex*/
+}
+nav a {
+    text-decoration:none;/*empêcher les liens d'être soulignés*/
+    color: black;
+}
+nav a:hover {
+    color: brown;/*faire les couleurs en survolant*/
+}
+
+.section {
+    margin-top: 50px;
+}
+.container {
+    display: grid;/*Mettre les sous div cot à cot*/
+    grid-template-columns: 50% 50%;
+    height: 800px;
+    .akalt {
+        margin: auto;/*Appeler les div et les centrer*/
+        text-align: center;
+    }
+    .akalt2 {
+        margin: auto;
+        text-align: center;
+        max-width: 800px;
+        max-height: 100%;
+    }
+}
